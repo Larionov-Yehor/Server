@@ -1,4 +1,4 @@
-package server;
+package app;
 
 /**
  * Created by employee on 11/10/16.
