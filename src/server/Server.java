@@ -1,5 +1,6 @@
 package server;
 
+import org.apache.tomcat.core.Constants;
 import server.implementation.ParserImpl;
 import server.implementation.RouterImpl;
 
@@ -23,6 +24,7 @@ public class Server {
     public void start() throws IOException{
 
         ServerSocket server = new ServerSocket(9999);
+
 
         while (true){
 
