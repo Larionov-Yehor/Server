@@ -33,6 +33,7 @@ public class Tests {
 
     @Test
     public void assertCorrectParametersGet() throws IOException{
+
         String request = "GET /calendar/?firstday=WEDNESDAY&year=1994&month=MAY";
         InputStream inputStream = new ByteArrayInputStream(request.getBytes(StandardCharsets.UTF_8));
         httpRequest = parser.parse(inputStream);
